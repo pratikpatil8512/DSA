@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-void selection(int a[], int n){
+void selection(int a[], int n){     //actual sorting algo
     for(int i = 0; i<n-1; i++){
         int min = i;
         for(int j = i+1; j<n; j++){
@@ -14,7 +14,7 @@ void selection(int a[], int n){
     }
 }
 
-void display(int a[], int n){
+void display(int a[], int n){       //only for display purpose
     for(int i = 0; i<n; i++){
         cout<<a[i]<<" ";
     }
