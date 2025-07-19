@@ -1,3 +1,5 @@
+//finding the number of digits in given number
+
 #include<bits/stdc++.h>
 using namespace std;
 
